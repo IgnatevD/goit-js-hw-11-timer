@@ -12,7 +12,7 @@ const minsTwo = document.querySelector('.mins-2');
 const secsOne = document.querySelector('.secs-1');
 const secsTwo = document.querySelector('.secs-2');
 
-const timeOld = new Date('Jul 29, 2021 12:16:00');
+const timeOld = new Date('Jul 30, 2021 12:00:00');
 
 const idIterval = setInterval(() => {
   const timeNow = Date.now();
